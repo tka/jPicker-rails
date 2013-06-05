@@ -6,7 +6,7 @@ jPicker for rails with assets pipeline support. For more info take a look at htt
 
 Add this line to your application's Gemfile:
   ```ruby
-    gem 'jPicker-rails'
+    gem 'jpicker-rails'
   ```
 And then execute:
 
