@@ -9,7 +9,7 @@ Gem::Specification.new do |gem|
   gem.homepage      = "https://github.com/Maxoos/jPicker-rails"
   gem.add_dependency "railties", ">= 3.1.0"
   gem.add_dependency "jquery-rails"
-  gem.files         = gem.files = Dir["{lib,app}/**/*"] + ["MIT-LICENSE", "README.md"]
+  gem.files         = gem.files = Dir["{lib,app}/**/*"]
   gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
   gem.name          = "jpicker-rails"
